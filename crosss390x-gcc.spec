@@ -1,9 +1,9 @@
 Summary:	Cross S/390 GNU binary utility development utilities - gcc
-Summary(es.UTF-8):   Utilitarios para desarrollo de binarios de la GNU - S/390 gcc
-Summary(fr.UTF-8):   Utilitaires de développement binaire de GNU - S/390 gcc
-Summary(pl.UTF-8):   Skrośne narzędzia programistyczne GNU dla S/390 - gcc
-Summary(pt_BR.UTF-8):   Utilitários para desenvolvimento de binários da GNU - S/390 gcc
-Summary(tr.UTF-8):   GNU geliştirme araçları - S/390 gcc
+Summary(es.UTF-8):	Utilitarios para desarrollo de binarios de la GNU - S/390 gcc
+Summary(fr.UTF-8):	Utilitaires de développement binaire de GNU - S/390 gcc
+Summary(pl.UTF-8):	Skrośne narzędzia programistyczne GNU dla S/390 - gcc
+Summary(pt_BR.UTF-8):	Utilitários para desenvolvimento de binários da GNU - S/390 gcc
+Summary(tr.UTF-8):	GNU geliştirme araçları - S/390 gcc
 Name:		crosss390x-gcc
 Version:	4.0.2
 Release:	1
@@ -47,7 +47,7 @@ maszynach binariów do uruchamiania na Linuksie S/390.
 
 %package c++
 Summary:	C++ support for crosss390x-gcc
-Summary(pl.UTF-8):   Obsługa C++ dla crosss390x-gcc
+Summary(pl.UTF-8):	Obsługa C++ dla crosss390x-gcc
 Group:		Development/Languages
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
