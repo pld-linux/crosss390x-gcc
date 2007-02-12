@@ -1,9 +1,9 @@
 Summary:	Cross S/390 GNU binary utility development utilities - gcc
-Summary(es):	Utilitarios para desarrollo de binarios de la GNU - S/390 gcc
-Summary(fr):	Utilitaires de développement binaire de GNU - S/390 gcc
-Summary(pl):	Skro¶ne narzêdzia programistyczne GNU dla S/390 - gcc
-Summary(pt_BR):	Utilitários para desenvolvimento de binários da GNU - S/390 gcc
-Summary(tr):	GNU geliþtirme araçlarý - S/390 gcc
+Summary(es.UTF-8):   Utilitarios para desarrollo de binarios de la GNU - S/390 gcc
+Summary(fr.UTF-8):   Utilitaires de dÃ©veloppement binaire de GNU - S/390 gcc
+Summary(pl.UTF-8):   SkroÅ›ne narzÄ™dzia programistyczne GNU dla S/390 - gcc
+Summary(pt_BR.UTF-8):   UtilitÃ¡rios para desenvolvimento de binÃ¡rios da GNU - S/390 gcc
+Summary(tr.UTF-8):   GNU geliÅŸtirme araÃ§larÄ± - S/390 gcc
 Name:		crosss390x-gcc
 Version:	4.0.2
 Release:	1
@@ -37,17 +37,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains a cross-gcc which allows the creation of
 binaries to be run on S/390 Linux on other machines.
 
-%description -l de
-Dieses Paket enthält einen Cross-gcc, der es erlaubt, auf einem
-anderem Rechner Code für S/390 Linux zu generieren.
+%description -l de.UTF-8
+Dieses Paket enthÃ¤lt einen Cross-gcc, der es erlaubt, auf einem
+anderem Rechner Code fÃ¼r S/390 Linux zu generieren.
 
-%description -l pl
-Ten pakiet zawiera skro¶ny gcc pozwalaj±cy na robienie na innych
-maszynach binariów do uruchamiania na Linuksie S/390.
+%description -l pl.UTF-8
+Ten pakiet zawiera skroÅ›ny gcc pozwalajÄ…cy na robienie na innych
+maszynach binariÃ³w do uruchamiania na Linuksie S/390.
 
 %package c++
 Summary:	C++ support for crosss390x-gcc
-Summary(pl):	Obs³uga C++ dla crosss390x-gcc
+Summary(pl.UTF-8):   ObsÅ‚uga C++ dla crosss390x-gcc
 Group:		Development/Languages
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 
@@ -55,8 +55,8 @@ Requires:	%{name} = %{epoch}:%{version}-%{release}
 This package adds C++ support to the GNU Compiler Collection for
 S/390.
 
-%description c++ -l pl
-Ten pakiet dodaje obs³ugê C++ do kompilatora gcc dla S/390.
+%description c++ -l pl.UTF-8
+Ten pakiet dodaje obsÅ‚ugÄ™ C++ do kompilatora gcc dla S/390.
 
 %prep
 %setup -q -n gcc-%{version}
